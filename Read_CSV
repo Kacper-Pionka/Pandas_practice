@@ -1,0 +1,5 @@
+import pandas as pd
+
+rFile = pd.read_csv('data.csv')
+
+print(rFile.to_string())
